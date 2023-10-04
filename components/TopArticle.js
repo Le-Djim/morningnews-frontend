@@ -45,5 +45,6 @@ function TopArticle(props) {
 		</div>
 	);
 }
-
+// export default
 export default TopArticle;
+

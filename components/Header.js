@@ -44,7 +44,7 @@ function Header() {
 
 	const handleConnection = () => {
 
-		fetch('http://morningnews-backend-topaz.vercel.app/users/signin', {
+		fetch('https://morningnews-backend-topaz.vercel.app/users/signin', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({ username: signInUsername, password: signInPassword }),
