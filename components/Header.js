@@ -27,7 +27,7 @@ function Header() {
 	}, []);
 
 	const handleRegister = () => {
-		fetch('https://morningnews-backend-topaz.vercel.app/signup', {
+		fetch('https://morningnews-backend-topaz.vercel.app/users/signup', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({ username: signUpUsername, password: signUpPassword }),
