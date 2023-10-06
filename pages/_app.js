@@ -35,6 +35,6 @@ function App({ Component, pageProps }) {
       </PersistGate>
     </Provider>
   );
-}
+};
 
 export default App;
